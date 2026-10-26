@@ -510,6 +510,7 @@ class data_analytics :
             if option == 1 :
                 
               main_arr = self.create_numpy()
+              self.index_slice(main_arr)
 
             
             
